@@ -27,11 +27,9 @@ All libraries are available in Anaconda distribution of Python. The used librari
 - plotly
 - sqlite3
 
-The code should run using Python versions 3.*.
-
 ### Project Motivation<a name="Motivation"></a>
 
-The goal of the project is to classify the disaster messages into categories. In this project, I analyzed disaster data from [Figure Eight](https://appen.com/) to build a model for an API that classifies disaster messages. Through a web app, the user can input a new message and get classification results in several categories. The web app also display visualizations of the data.
+The goal of the project is to analyze the disaster data from [Figure Eight](https://appen.com/) in order to build a model that classifies the disaster messages into categories. Through a web app, the user can input a new message and get classification results in several categories. 
 
 ### Project Descriptions<a name="Description"></a>
 
@@ -77,7 +75,6 @@ The project has three componants which are:
 	- \models
 		- train_classifier.py: classification code
 		- classifier.pkl: model pickle file
-	
 
 ### Instructions<a name="Instruction"></a>
 
@@ -90,8 +87,5 @@ To execute the app follow the instructions:
    Run the following command in the app's directory to run your web app. python run.py
 
    Go to http://0.0.0.0:3001/
-   
-   ### License and Acknowledgement:
-   
-   Udacity - Data Science Nano Degree
+ 
   
