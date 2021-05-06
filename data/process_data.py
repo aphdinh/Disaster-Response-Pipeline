@@ -48,6 +48,9 @@ def clean_data(df):
     for column in categories:
         # set each value to be the last character of the string
         categories[column] = pd.to_numeric(categories[column].str[-1])
+        
+    # based on the figure 8 documentation original mapping is the following: 1 - yes, 2 - no, so I will convert all the 2's to 0's
+    categories['related'] = categories['related'].replace(2, 0)
 
     # replace the original categories column from `df`
     df.drop("categories", axis=1, inplace=True)
