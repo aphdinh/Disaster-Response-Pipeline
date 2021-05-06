@@ -29,7 +29,7 @@ All libraries are available in Anaconda distribution of Python. The used librari
 
 ### Project Motivation<a name="Motivation"></a>
 
-The goal of the project is to analyze the disaster data from [Figure Eight](https://appen.com/) in order to build a model that classifies the disaster messages into categories. Through a web app, the user can input a new message and get classification results in several categories. 
+The goal of the project is to analyze the disaster data from [Figure Eight](https://appen.com/) in order to build a model that classifies the disaster messages into categories. Through a web app, the user can input a new message and get classification results in several categories. This project will help people and organization quickly categorize messages into categories in the event of disaster
 
 ### Project Descriptions<a name="Description"></a>
 
